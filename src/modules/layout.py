@@ -8,7 +8,7 @@ class Layout:
         """
         st.markdown(
             f"""
-            <h1 style='text-align: center;'> Ask Robby about your {types_files} files ! 😁</h1>
+            <h1 style='text-align: center;'> Tell Eddi about your email using any of the following {types_files} filetypes ! 📬</h1>
             """,
             unsafe_allow_html=True,
         )
@@ -33,7 +33,7 @@ class Layout:
         with st.form(key="my_form", clear_on_submit=True):
             user_input = st.text_area(
                 "Query:",
-                placeholder="Ask me anything about the document...",
+                placeholder="Tell me about this email...",
                 key="input",
                 label_visibility="collapsed",
             )

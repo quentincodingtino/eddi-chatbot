@@ -42,7 +42,7 @@ if uploaded_file :
         st.session_state['history'] = []
 
     if 'generated' not in st.session_state:
-        st.session_state['generated'] = ["Hello ! Ask me anything about " + uploaded_file.name + " 🤗"]
+        st.session_state['generated'] = ["Kia ora ! Ready to write an email. ]
 
     if 'past' not in st.session_state:
         st.session_state['past'] = ["Hey ! 👋"]
